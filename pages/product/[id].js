@@ -7,7 +7,8 @@ export default function Home() {
     return (
         <div>
             <h1>Haloo</h1>
-            <a href={"intent://product/"+id+"#Intent;scheme=help;package=com.helpdelivery;end"}>Klik dengan id ${id}</a>
+            <a href={"intent://product/"+id+"#Intent;scheme=help;package=com.helpdelivery;end"}>Klik for Android {id}</a>
+            <a href={"help://product/"+id}>Klik for IOS {id}</a>
         </div>
     );
 };
