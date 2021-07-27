@@ -38,7 +38,7 @@ Home.getInitialProps = async ({ req, res, query }) => {
     } else if (isIphone) {
         url = "help://product/"+query.id;
     } else {
-        url = null;
+        url = "help://product/"+query.id;
     }
     
     return {url}
