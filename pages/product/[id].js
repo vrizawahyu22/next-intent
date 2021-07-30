@@ -7,7 +7,7 @@ const Home = ({url}) => {
     const { id } = router.query
     return (
         <div>
-            <h1>Haloo v1</h1>
+            <h1>Haloo v2</h1>
             <a href={url}>Klik disini {id}</a>
         </div>
     );
